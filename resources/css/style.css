@@ -399,6 +399,7 @@ Desktop Styles
         height: 480px;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
+        align-items: center;
     }
 
     #features {
