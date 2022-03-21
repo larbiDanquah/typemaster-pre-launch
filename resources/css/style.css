@@ -458,6 +458,7 @@ Desktop Styles
 
     .display-square-pattern {
         position: absolute;
+        top: 960px;
         left: -120px;
     }
 

@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://larbidanquah.github.io/typemaster-pre-launch/)
+- Live Site URL: [Typemaster Pre-Launch Landing Page](https://larbidanquah.github.io/typemaster-pre-launch/)
 
 ## My process
 
