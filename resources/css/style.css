@@ -34,6 +34,8 @@ button {
     width: 175px;
     padding: 16px 0;
     border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 300ms ease-in, color 300ms ease-in;
  }
 
 /* ------------------------------------------------------------------------
@@ -107,7 +109,7 @@ Photo display Styles
  --------------------------------------*/
 
  @media only screen and (min-width: 375px) and (max-width: 768px) {
-     #product-display {
+     #product-display .product-grid {
          margin-right: 24px;
          display: flex;
          height: 193px;
@@ -143,6 +145,25 @@ Photo display Styles
          background-repeat: no-repeat;
          background-size: cover;
          border-radius: 20px;
+     }
+
+     .feature-headline {
+         text-align: center;
+         max-width: 327px;
+         margin: 75px auto;
+     }
+
+     .feature-headline h2 {
+         font-size: 32px;
+         font-weight: 900;
+         color: #162542;
+         text-transform: uppercase;
+         line-height: 36px;
+         margin-bottom: 24px;
+     }
+
+     .feature-headline p {
+         margin-bottom: 111px;
      }
  }
 
@@ -237,6 +258,36 @@ Footer Styles
 Tablet Styles
  ----------------------------------------------------------------------------*/
  @media only screen and (min-width: 768px) and (max-width: 1440px) {
+    #product-display .product-grid {
+        margin: 0 40px 0 40px;
+    }
+
+    #product-display .product-grid {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+        height: 320px;
+    }
+
+    .feature-headline {
+        margin: 40px auto;
+        max-width: 689px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero-image {
+        width: 478px;
+        height: 425px;
+        background-image: url('/resources/assets/tablet/image-keyboard.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        position: relative;
+        right: -50px;
+    }
+ }
+ @media only screen and (min-width: 768px) {
      header {
         margin: 40px 40px 0 40px;
      }
@@ -250,25 +301,6 @@ Tablet Styles
 
      .hero-info {
          max-width: 338px;
-     }
-
-     .hero-image {
-         width: 478px;
-         height: 425px;
-         background-image: url('/resources/assets/tablet/image-keyboard.jpg');
-         background-repeat: no-repeat;
-         background-size: cover;
-         border-radius: 20px;
-         position: relative;
-         right: -50px;
-     }
-
-     #product-display {
-         display: grid;
-         gap: 30px;
-         grid-template-columns: repeat(3, 1fr);
-         height: 320px;
-         margin: 0 40px 0 40px;
      }
 
      .item-1 {
@@ -302,13 +334,11 @@ Tablet Styles
      }
 
      #features {
-         margin: 72px 40px 0 40px;
+         margin: 72px auto 0 auto;
+         max-width: 689px;
      }
 
-     .feature-headline {
-         display: flex;
-         justify-content: space-between;
-     }
+     
 
      .feature-headline h2 {
          text-align: left;
@@ -342,20 +372,100 @@ Desktop Styles
      }
 
      #hero {
-         border: solid 1px salmon;
+         margin: 83px auto 30px auto;
          max-width: 1110px;
          display: flex;
-         margin: 83px auto 30px auto;
          justify-content: space-between;
+         align-items: center;
      }
 
      .hero-info {
         max-width: 445px;
     }
 
-    .hero-image {}
+    .hero-image {
+        width: 540px;
+        height: 480px;
+        background-image: url('/resources/assets/desktop/image-keyboard.jpg');
+    }
 
     .hero-cta button {
         margin-right: 32px;
+    }
+
+    #product-display {
+        max-width: 1110px;
+        margin: 30px auto;
+        height: 480px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    #features {
+        max-width: 1110px;
+        margin: 0 auto;
+    }
+
+    .feature-headline {
+        width: 225px;
+    }
+
+    .feature-headline p {
+        width: 225px;
+    }
+
+    .feature-headline h2 {
+        font-size: 32px;
+        font-weight: 900;
+        color: #162542;
+        text-transform: uppercase;
+        line-height: 36px;
+        margin-bottom: 27px;
+    }
+
+    .product-grid {
+        margin: 0 125px 0 0;
+        height: 480px;
+        display: grid;
+        gap: 30px;
+        width: 730px;
+    }
+
+    .product-grid .item-1 {
+        height: 100%;
+        background-image: url('/resources/assets/desktop/image-phone-and-keyboard.jpg');
+        background-size: cover;
+    }
+
+    .product-grid .item-2 {
+        height: 100%;
+        background-image: url('/resources/assets/desktop/image-glass-and-keyboard.jpg');
+        background-size: cover;
+    }
+
+    .hero-square-pattern, .display-square-pattern {
+        width: 255px;
+        height: 240px;
+        background-image: url('/resources/assets/shared/pattern-square.svg');
+    }
+
+    .hero-square-pattern {
+        position: absolute;
+        top: 196px;
+        right: -120px;
+    }
+
+    .display-square-pattern {
+        position: absolute;
+        left: -120px;
+    }
+
+    header button:hover {
+        background-color: #162542;
+        color: #ffffff;
+    }
+
+    #hero button:hover {
+        background-color: #FF9B62;
     }
  }
