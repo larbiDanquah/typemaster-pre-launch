@@ -95,7 +95,7 @@ Hero Styles
      .hero-image {
          height: 331px;
          width: 372px;
-         background-image: url('/resources/assets/mobile/image-keyboard.jpg');
+         background-image: url('https://github.com/larbiDanquah/typemaster-pre-launch/blob/main/resources/assets/mobile/image-keyboard.jpg?raw=true');
          background-repeat: no-repeat;
          background-size: cover;
          border-radius: 20px;
@@ -118,7 +118,7 @@ Photo display Styles
      #product-display .item-1 {
          width: 129px;
          height: 100%;
-         background-image: url('/resources/assets/mobile/image-phone-and-keyboard.jpg');
+         background-image: url('https://github.com/larbiDanquah/typemaster-pre-launch/blob/main/resources/assets/mobile/image-phone-and-keyboard.jpg?raw=true');
          background-repeat: no-repeat;
          background-size: cover;
          border-radius: 20px;
@@ -141,7 +141,7 @@ Photo display Styles
      #product-display .item-2 {
          width: 220px;
          height: 100%;
-         background-image: url('/resources/assets/mobile/image-glass-and-keyboard.jpg');
+         background-image: url('https://github.com/larbiDanquah/typemaster-pre-launch/blob/main/resources/assets/mobile/image-glass-and-keyboard.jpg?raw=true');
          background-repeat: no-repeat;
          background-size: cover;
          border-radius: 20px;
@@ -217,25 +217,25 @@ Feature Styles
  }
 
  .icon-compatible {
-     background-image: url('/resources/assets/shared/icon-compatible.svg');
+     background-image: url('https://raw.githubusercontent.com/larbiDanquah/typemaster-pre-launch/4ffa0e775a13b1fc3312edcd8cbaaead52177e0f/resources/assets/shared/icon-compatible.svg');
      background-repeat: no-repeat;
      background-position: center;
  }
 
  .icon-connectivity {
-    background-image: url('/resources/assets/shared/icon-bluetooth.svg');
+    background-image: url('https://raw.githubusercontent.com/larbiDanquah/typemaster-pre-launch/4ffa0e775a13b1fc3312edcd8cbaaead52177e0f/resources/assets/shared/icon-bluetooth.svg');
     background-repeat: no-repeat;
     background-position: center;
  }
 
  .icon-capacity {
-    background-image: url('/resources/assets/shared/icon-battery.svg');
+    background-image: url('https://raw.githubusercontent.com/larbiDanquah/typemaster-pre-launch/4ffa0e775a13b1fc3312edcd8cbaaead52177e0f/resources/assets/shared/icon-battery.svg');
     background-repeat: no-repeat;
     background-position: center;
  }
 
  .icon-rgb {
-    background-image: url('/resources/assets/shared/icon-light.svg');
+    background-image: url('https://raw.githubusercontent.com/larbiDanquah/typemaster-pre-launch/4ffa0e775a13b1fc3312edcd8cbaaead52177e0f/resources/assets/shared/icon-light.svg');
     background-repeat: no-repeat;
     background-position: center;
  }
@@ -279,7 +279,7 @@ Tablet Styles
     .hero-image {
         width: 478px;
         height: 425px;
-        background-image: url('/resources/assets/tablet/image-keyboard.jpg');
+        background-image: url('https://github.com/larbiDanquah/typemaster-pre-launch/blob/main/resources/assets/tablet/image-keyboard.jpg?raw=true');
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 20px;
@@ -305,7 +305,7 @@ Tablet Styles
 
      .item-1 {
          height: 320px;
-         background-image: url('/resources/assets/tablet/image-phone-and-keyboard.jpg');
+         background-image: url('https://github.com/larbiDanquah/typemaster-pre-launch/blob/main/resources/assets/tablet/image-phone-and-keyboard.jpg?raw=true');
          background-repeat: no-repeat;
          background-size: cover;
          border-radius: 20px;
@@ -326,7 +326,7 @@ Tablet Styles
 
      .item-2 {
         height: 100%;
-        background-image: url('/resources/assets/tablet/image-glass-and-keyboard.jpg');
+        background-image: url('https://github.com/larbiDanquah/typemaster-pre-launch/blob/main/resources/assets/tablet/image-glass-and-keyboard.jpg?raw=true');
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 20px;
@@ -386,7 +386,7 @@ Desktop Styles
     .hero-image {
         width: 540px;
         height: 480px;
-        background-image: url('/resources/assets/desktop/image-keyboard.jpg');
+        background-image: url('https://github.com/larbiDanquah/typemaster-pre-launch/blob/main/resources/assets/desktop/image-keyboard.jpg?raw=true');
     }
 
     .hero-cta button {
@@ -433,20 +433,20 @@ Desktop Styles
 
     .product-grid .item-1 {
         height: 100%;
-        background-image: url('/resources/assets/desktop/image-phone-and-keyboard.jpg');
+        background-image: url('https://github.com/larbiDanquah/typemaster-pre-launch/blob/main/resources/assets/desktop/image-phone-and-keyboard.jpg?raw=true');
         background-size: cover;
     }
 
     .product-grid .item-2 {
         height: 100%;
-        background-image: url('/resources/assets/desktop/image-glass-and-keyboard.jpg');
+        background-image: url('https://github.com/larbiDanquah/typemaster-pre-launch/blob/main/resources/assets/desktop/image-glass-and-keyboard.jpg?raw=true');
         background-size: cover;
     }
 
     .hero-square-pattern, .display-square-pattern {
         width: 255px;
         height: 240px;
-        background-image: url('/resources/assets/shared/pattern-square.svg');
+        background-image: url('https://raw.githubusercontent.com/larbiDanquah/typemaster-pre-launch/4ffa0e775a13b1fc3312edcd8cbaaead52177e0f/resources/assets/shared/pattern-square.svg');
     }
 
     .hero-square-pattern {
