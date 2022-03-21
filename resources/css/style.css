@@ -205,4 +205,15 @@ Feature Styles
     background-position: center;
  }
 
- 
+ /* ------------------------------------
+Footer Styles
+ --------------------------------------*/
+ footer {
+     margin: 96px 24px 50px 24px;
+     text-align: center;
+ }
+
+ footer p span {
+     font-weight: 700;
+     position: relative;
+ }
