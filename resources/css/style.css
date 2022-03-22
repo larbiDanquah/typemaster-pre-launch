@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Barlow', sans-serif;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -257,7 +258,7 @@ Footer Styles
  /* ------------------------------------------------------------------------
 Tablet Styles
  ----------------------------------------------------------------------------*/
- @media only screen and (min-width: 768px) and (max-width: 1440px) {
+ @media only screen and (min-width: 768px) and (max-width: 1339px) {
     #product-display .product-grid {
         margin: 0 40px 0 40px;
     }
@@ -398,7 +399,7 @@ Desktop Styles
         margin: 30px auto;
         height: 480px;
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
 
@@ -469,5 +470,18 @@ Desktop Styles
 
     #hero button:hover {
         background-color: #FF9B62;
+    }
+ }
+
+ @media only screen and (width: 1440px) {
+
+     .feature-headline {
+         flex-direction: column;
+    }
+
+    .display-square-pattern {
+        position: absolute;
+        top: 886px;
+        left: -120px;
     }
  }
